@@ -1,0 +1,26 @@
+Landscape- You can use it to monitor and manage both desktop and server instances of Ubuntu.It's useful,because Landscape is a system management tool designed to let you easily manage multiple Ubuntu systems
+(It's avaliable for Ubuntu 18.04)
+
+Normal user(no root)
+Ubuntu 18.04
+
+Steps:
+sudo apt update
+sudo apt upgrade
+sudo apt install landscape-client
+clear
+sudo add-apt-repository --update ppa:landscape/19.10(no root)
+sudo apt install landscape-server-quickstart(no root)
+
+Postfix Configuration - I chose "No Configuration"
+
+sudo nano /etc/hosts (second line hostname for landscape)
+Web browser "ip address that signed to eht0 and starts with 192.XXX.X.XXX"
+Signing up in Web Browser
+
+sudo landscape-config --computer-title "File Server" --account-name standalone --url https://xxx.xxx.xxxxx/message-system --ping-url https://xxx.xx.xx/ping
+(HTTP and HTTPS proxy URL:empty)
+Accept request from the your account.
+
+Installation Complete.
+

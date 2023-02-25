@@ -1,0 +1,13 @@
+Normal user - no root
+(if you had SSL error)
+scp root@XXX.XXX.XX.XXX:/etc/ssl/certs/landscape_server_ca.crt (installing SSL certificate)
+sudo chown root:root landscape_server_ca.crt (changing ownership of the certificate file)
+sudo mv landscape_server_ca.crt /etc/landscape
+
+We need to add SSL certificate destination into .conf file
+
+sudo nano /etc/landscape/client.conf  
+Adding these lines: ssl_public_key = /etc/landscape/landscape_server_ca.crt
+(Refresh the page if you didn't get request)
+
+
