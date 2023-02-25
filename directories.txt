@@ -1,0 +1,7 @@
+/etc/landscape	-- Landscape configuration/license
+/etc/default/landscape-server	-- Service/instance configuration
+/etc/apache2/sites-available/<hostname>	-- Apache configuration
+/etc/ssl/certs/landscape*	-- X.509 certificate
+/etc/ssl/private/landscape* -- 	X.509 key
+/etc/postgresql	-- PostgreSQL configuration
+/var/lib/postgresql -- PostgreSQL database
