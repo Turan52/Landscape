@@ -22,7 +22,8 @@ Build your own graphs with custom metrics
 
 Maintain security and compliance --- Patch compliance – keep systems secure and up to date
 Role Based Access Control (RBAC)
-Automated audit logging and compliance reporting
+Automated audit logging and compliance ![Landscape](https://user-images.githubusercontent.com/105795532/221411111-d5876ff7-5213-4de7-b194-c0917666c08d.png)
+reporting
 Regulatory compliance is significantly simplified with custom reporting
 
 Control your inventory --- Quickly track full software package information for all registered machines
